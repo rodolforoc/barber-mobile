@@ -8,11 +8,13 @@ export const Container = styled(RectButton)`
   border-radius: 10px;
   margin-top: 8px;
 
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
 `;
 
 export const ButtonText = styled.Text`
+  flex: 1;
+  text-align: center;
   font-family: 'RobotoSlab-Medium';
   color: #312e38;
   font-size: 18px;
